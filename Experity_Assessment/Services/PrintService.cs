@@ -29,7 +29,7 @@ namespace Experity_Assessment.Services
         {
             var list = new List<string>();
 
-            for (int i = start; i < end; i++)
+            for (int i = start; i <= end; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
                 {
@@ -56,7 +56,7 @@ namespace Experity_Assessment.Services
         {
             var list = new List<string>();
 
-            for (int i = start; i < end; i++)
+            for (int i = start; i <= end; i++)
             {
                 if (i % 2 == 0 && i % 7 == 0)
                 {
