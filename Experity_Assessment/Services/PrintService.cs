@@ -1,5 +1,6 @@
 ﻿using Experity_Assessment.Interfaces;
 using System.Collections.Generic;
+using System.Windows;
 
 namespace Experity_Assessment.Services
 {
@@ -17,7 +18,7 @@ namespace Experity_Assessment.Services
                     result = GetDiagnoseResult(start, end, type);
                     break;
                 default:
-                    result = new List<string>();
+                    MessageBox.Show("Invalid type");
                     break;
             }
 

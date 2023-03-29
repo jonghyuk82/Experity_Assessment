@@ -25,7 +25,7 @@
         <ListView Grid.Row="2" Margin="10" HorizontalAlignment="Stretch" ItemsSource="{Binding ReturnLists}">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Number" Width="480">
+                    <GridViewColumn Header="Number" Width="780">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock HorizontalAlignment="Center" Text="{Binding }"/>

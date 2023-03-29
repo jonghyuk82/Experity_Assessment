@@ -26,6 +26,10 @@ namespace Experity_Assessment.ViewModels
 
         private void ExecutePrintNumber(EventModel type)
         {
+            if (type == null)
+            {
+                type = new EventModel();
+            }
             ReturnLists = _printService.GetPrintNumber(1, 100, type.EventType);
         }
 
